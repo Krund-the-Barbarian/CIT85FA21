@@ -1,0 +1,35 @@
+/*
+first
+last
+even
+odd
+nth-child(n)
+only-child
+nth-child(an+b)
+*/
+
+ul:first-child {
+    background-color: salmon;
+}
+
+ul:last-child {
+    background-color: skyblue;
+}
+li:nth-child(even) {
+    color:lime;
+}
+
+li:nth-child(odd) {
+    color:seagreen;
+}
+
+ul:nth-child(2) {
+    background-color: slategrey;
+}
+p:only-child {
+    background-color:palegoldenrod;
+    color:red
+}
+li:nth-child(3n+1) {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
