@@ -1,0 +1,58 @@
+div {
+    border: crimson;
+    border-style: solid;
+    height: 50px;
+    width: 50%;
+}
+p {
+    height: 25px;
+    width: 45%;
+    border:lightskyblue;
+    border-style: dotted;
+}
+h1 {
+    height: 45px;
+    width:75%;
+    border:lime;
+    border-style: dashed;
+}
+/*Specificity 0100*/
+#yellow {
+    color:yellow;
+}
+/*Specificity 0010*/
+.classy {
+    color:purple;
+}
+/*Specificity 0002*/
+div p {
+    color:blue;
+}
+/*Specificity 0002*/
+div h1 {
+    color:green;
+}
+/*Specificity 0102*/
+div#yellow p {
+    color:lightsalmon
+}
+/*Specificity 0012*/
+div p.classy {
+    color:lightseagreen;
+}
+/*Specificity 0012*/
+div p:nth-child(2) {
+    color:aquamarine;    
+}
+/*Specificity 0022*/
+div p.classy:first-child {
+    color:cornflowerblue;
+}
+/*Specificity 0022*/
+div p.classy:last-child {
+    color:fuchsia;
+}
+/*Specificity 0011*/
+div:nth-child(3) {
+    color:hotpink
+} 
