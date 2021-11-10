@@ -1,0 +1,33 @@
+#one {
+    font-family: serif;
+}
+#two {
+    font-family: sans-serif;
+}
+#three {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+#four {
+    text-transform: uppercase;
+    font-style: italic;
+}
+#five {
+    letter-spacing: 10px;
+}
+#six {
+    text-shadow: 2px 1px 3px red;
+}
+/*seven*/
+a:link {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#eight {
+    text-decoration: line-through;
+}
+#nine {
+    text-indent: 2rem;
+}
