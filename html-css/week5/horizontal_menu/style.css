@@ -1,0 +1,20 @@
+a {
+    text-decoration: none;
+    border-radius: 50px;
+    display:inline-block;
+    padding: 35px;
+}
+li {
+    height: 100px;
+    width: 150px;
+    border-radius: 10% 70%;
+    border: 2px solid orange;
+    display: inline-block;
+    margin:10px;
+    text-align: center;
+}
+li:hover {
+    background-color: yellow;
+    display: inline-block;
+}
+/* I thought lemons would be a nice touch */
