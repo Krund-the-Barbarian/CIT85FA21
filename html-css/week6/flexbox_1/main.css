@@ -1,0 +1,27 @@
+html{
+    height:100%;
+    border:4px solid red;
+}
+body{
+    display:flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+div{
+    height:100px;
+    width:200px;
+    margin: 5px;
+    background-color: coral;
+    border: 2px solid black;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 14%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#twenty{
+    flex-grow: 2;
+}
