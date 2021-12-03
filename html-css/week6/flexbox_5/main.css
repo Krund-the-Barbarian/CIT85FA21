@@ -1,0 +1,39 @@
+html{
+    height:100%;
+}
+body{
+    display: flex;
+    height:100%;
+    padding:0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: stretch;
+}
+#left{
+    background-color: navy;
+    width: 25%;
+    height:100%;
+    border: 2px solid navy;
+    color:white;
+    font-size: x-large;
+}
+#right{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    width:75%;
+    height: 100%;
+}
+#two{
+    background-color: dodgerblue;
+    color:white;
+    height: 50%;
+    font-size: x-large;
+}
+#three{
+    background-color:lightsteelblue;
+    color:white;
+    height: 50%;
+    font-size: x-large;
+}
