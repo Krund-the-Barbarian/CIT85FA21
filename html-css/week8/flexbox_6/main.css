@@ -1,0 +1,7 @@
+ul{
+    display: flex;
+    flex-flow: column nowrap;
+}
+a{
+   display: block;
+}
