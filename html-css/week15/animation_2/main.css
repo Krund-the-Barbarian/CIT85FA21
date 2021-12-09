@@ -1,0 +1,42 @@
+html,body{
+    height:100%;
+}
+
+@keyframes colorShiftAndMove {
+    0% { background-color: red;
+        top:0%;
+        left: 0%;
+    }
+    20% { background-color: purple;
+        top:20%;
+        left: 20%;
+    }
+    40% { background-color: blue;
+        top:40%;
+        left: 40%;
+    }
+    60% { background-color: green;
+        top:60%;
+        left: 60%;
+    }
+    80% { background-color: yellow;
+        top:80%;
+        left: 80%;
+    }
+    100% { background-color: orange;
+        top:100%;
+        left: 100%;
+    }    
+}
+
+div{
+    position: relative;
+    border-radius: 100%;
+    background-color: aquamarine;
+    height:100px;
+    width:100px;
+    animation-name: colorShiftAndMove;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction:alternate;
+}
