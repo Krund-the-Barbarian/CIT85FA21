@@ -1,0 +1,25 @@
+html{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes colorShift {
+    0% { background-color: red;}
+    20% { background-color: purple;}
+    40% { background-color: blue;}
+    60% { background-color: green;}
+    80% { background-color: yellow;}
+    100% { background-color: orange;}    
+}
+
+div{
+    border-radius: 100%;
+    background-color: aquamarine;
+    height:100px;
+    width:100px;
+    animation-name: colorShift;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
