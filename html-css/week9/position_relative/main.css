@@ -1,0 +1,17 @@
+div{
+    position: relative;
+    height:100px;
+    width: 100px;
+    padding:5px;
+}
+
+.one{
+    background-color: red;
+}
+.two{
+    background-color: royalblue;
+    left:110px;
+}
+.three{
+    background-color: purple;
+}
